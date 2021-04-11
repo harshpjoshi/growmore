@@ -44,7 +44,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
             color: ColorConstants.textColor,
           ),
           onPressed: () {
-
+            // Navigation
             if(_pageController.page == 0){
               Navigator.pop(context);
             }else if(_pageController.page == 1){
