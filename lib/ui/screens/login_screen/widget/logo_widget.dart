@@ -12,7 +12,8 @@ class LogoWidget extends StatelessWidget {
             child: Image.asset(
               ImageConstants.login,
               width: double.infinity,
-              fit: BoxFit.fitWidth,
+              height: 150,
+              fit: BoxFit.contain,
             ),
           ),
         ],
